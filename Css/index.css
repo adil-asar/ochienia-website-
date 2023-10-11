@@ -1,0 +1,943 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,200&family=Mooli&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* variables */
+
+:root {
+    --prim-font: 'Josefin Sans', sans-serif;
+    --sec-font: 'Mooli', sans-serif;
+    --yellow: #C69946;
+    --darkgrey: #3F3E44;
+    --lightblue: #7A91A3;
+    --lighgrey: #828282;
+    --white: #FFFFFF;
+}
+
+/* hero main section starts */
+
+.hero_section {
+    background: url('../image/welcomeImg.png');
+    width: 100%;
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* hero main section ends */
+
+/* navbar starts  */
+
+.Navbar_Css {
+    width: 52.5%;
+    /* background-color: #7A91A3; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+
+.Navbar_Css a {
+    text-decoration: none;
+    color: var(--white);
+    font-family: var(--prim-font);
+    cursor: pointer;
+    text-transform: uppercase;
+    
+
+}
+
+/* navbar ends  */
+
+/* welcome section starts */
+
+.Welcome_Section {
+    width: 75%;
+    margin: 5rem auto;
+    text-align: right;
+    display: flex;
+
+}
+.empty {
+    width: 50%;
+}
+
+.Welcome {
+    text-align: center;
+    width: 50%;
+    padding: 5rem 0;
+    position: relative;
+    /* background-color: lightgreen; */
+}
+
+.Welcome h3 {
+    font-family: var(--sec-font);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--yellow);
+    font-weight: 200;
+    margin: 1rem 0;
+    font-size: 18px;
+}
+
+.Land {
+    color: var(--white);
+    font-family: var(--prim-font);
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 1.5rem 0;
+    font-size: 3.5rem;
+}
+
+.Cocktails {
+    color: var(--lightblue);
+    font-family: var(--prim-font);
+    font-weight: 500;
+    font-size: 5rem;
+    margin-top: 2rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.decoratve_line {
+    /* background-color: #7A91A3; */
+    margin-top: -1rem;
+}
+
+.Welcome p {
+    font-family: var(--sec-font);
+    letter-spacing: 1px;
+    margin: 2rem;
+    color: var(--lighgrey);
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+}
+
+.viewbtn {
+    font-family: var(--prim-font);
+    letter-spacing: 1px;
+    background-color: transparent;
+    border: 2px solid var(--yellow);
+    color: var(--yellow);
+    font-size: 1rem;
+    width: 150px;
+    height: 50px;
+}
+
+.setting_img {
+    position: absolute;
+    right: -33%;
+    top: -10%;
+}
+
+/* welcome section ends */
+
+
+/* aboutus section starts */
+
+.aboutus_section {
+    width: 80%;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.head_3 {
+    font-family: var(--sec-font);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--yellow);
+    font-weight: 200;
+    margin: 1rem 0;
+    font-size: 18px;
+}
+
+.color {
+    color: var(--darkgrey);
+    font-size: 2.7rem;
+    letter-spacing: 0px;
+}
+
+.para {
+    font-family: var(--sec-font);
+    letter-spacing: 1px;
+    margin: 2rem;
+    color: var(--lighgrey);
+    font-size: 17px;
+    line-height: 2rem;
+    text-align: center;
+}
+
+/* aboutus section ends */
+
+/* signatute section starts */
+
+.signature_section {
+    width: 80%;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.tropical {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 5rem 0;
+    justify-content: space-between;
+}
+
+.tropical_reverse {
+    flex-direction: row-reverse;
+}
+
+.first_sec {
+    /* background-color: #7A91A3; */
+    width: 35%;
+}
+
+.seondc_sec {
+    width: 60%;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+    margin: 1rem 0;
+}
+
+ul>li {
+    font-family: var(--sec-font);
+    letter-spacing: 1px;
+    margin: 10px 0;
+    color: var(--lighgrey);
+    font-size: 17px;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.card_img {
+    width: 100%;
+}
+
+.patternimg {
+    position: absolute;
+    right: -5%;
+    bottom: -6%;
+}
+
+.opposite {
+    left: -5%;
+    bottom: -6%;
+    position: absolute;
+}
+
+/* signatute section ends */
+
+/* contact section starts */
+
+
+.contact_section {
+    width: 80%;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.form_section {
+    width: 100%;
+    margin: 5rem auto;
+    background-color: lightgray;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location {
+    width: 50%;
+}
+
+.information{
+text-align: left;
+display: flex;
+align-items: center;
+margin: 2.5rem 0;
+}
+
+.icon{
+    width: 70px;
+    height: 70px;
+    border: 1px solid var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.5rem;
+}
+.fa-solid{
+    font-size: 25px;
+    color: var(--yellow);
+}
+
+.note{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.note_styles{
+    font-family: var(--sec-font);
+    font-size: 17px;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.note_label{
+color: var(--lighgrey);
+}
+.social_media{
+    width: 100%;
+    /* background-color: #C69946; */
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    display: flex;
+
+
+}
+.social{
+    display: flex;
+    margin-right: 3rem;
+    align-items: center;
+}
+.fa-brands{
+    color: var(--yellow);
+    font-size: 20px;
+    margin-right: 1rem;
+}
+.social_text{
+    font-family: var(--prim-font);
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+  color: var(--yellow);
+    letter-spacing: 1px;
+}
+
+.form_css{
+    text-align-last: left;
+    /* background-color: #7A91A3; */
+    border-left: 4px solid var(--lightblue);
+    padding-left:  1.5rem;
+}
+.small{
+font-family: var(--prim-font);
+color: var(--darkgrey);
+font-size: 16px;
+text-align-last: left !important;
+}
+.input_div{
+    width: 100%;
+    height: 60px;
+    background-color: var(--white);
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 1.5rem;
+}
+.input_icon{
+    font-size: 20px;
+    color: var(--yellow);
+}
+.input{
+    width: 80%;
+    height: 50px;
+    border: none;
+    font-family: var(--prim-font);
+    font-size: 1rem;
+    outline: none;
+}
+
+.Message_div{
+    height: auto;
+}
+.Message{
+    width: 100%;
+    border: none;
+    font-family: var(--prim-font);
+    font-size: 1rem;
+    outline: none;
+    padding: 1.5rem;
+}
+
+.submitbtn{
+    border: 1px solid var(--yellow);
+    font-family: var(--prim-font);
+    font-size: 1rem;
+    border-bottom: 2px solid var(--yellow);
+    color: var(--yellow);
+    margin-top: 3rem;
+    padding: .75rem 2.5rem;
+    text-transform: uppercase;
+    background: transparent;
+}
+/* contact section ends */
+
+/* footer section starts */
+
+.footer_sec{
+    width: 100%;
+    background-color: var(--darkgrey);
+}
+.row_one{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--white);
+    padding: 1rem 3rem;
+    justify-content: space-between;
+}
+.footer_logo{
+    width: 20%;
+}
+ .footer_menu{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+ }
+ .footer_menu a{
+    text-decoration: none;
+    color: var(--white);
+    font-family: var(--prim-font);
+    cursor: pointer;
+    text-transform: uppercase;
+ }
+
+ .row_two{
+    display: flex;
+    align-items: center;
+    padding: 1.2rem 3rem;
+    justify-content: space-between;
+ }
+ .footer_txt{
+    color: var(--white);
+    font-family: var(--prim-font);
+    font-size: 1rem;
+    letter-spacing: 1px;
+ }
+/* footer section ends */
+
+/* ************************************************************************************************************************************************* */
+/* **************************************************************************************************************************************************** */
+
+/* css media queries  */
+
+@media screen and (max-width: 1230px){
+    .contact_section{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+    .hero_section{
+        width: 100%;
+        height: 930px;
+  
+       
+    }
+    .Navbar_Css {
+        width: 65%;
+    }
+
+    
+.Welcome_Section {
+    width: 75%;
+    display: block;
+    height: auto;
+    margin:2rem auto ;
+}
+.empty {
+    display: none;
+}
+
+.Welcome {
+    width: 75%;
+    margin: auto;
+    padding: 3rem ;
+    text-align: center;
+    /* background-color: #7A91A3; */
+}
+
+
+.decoratve_line {
+    /* background-color: #7A91A3; */
+    margin-top: -1rem;
+}
+
+.viewbtn {
+    width: 250px;
+    height: 70px;
+    font-size: 1.5rem;
+}
+
+.setting_img {
+    position: absolute;
+    right: -38.7%;
+    top: -10%;
+}
+
+/* aboutus section starts */
+
+.aboutus_section {
+    width: 85%;
+    margin: 4rem auto;
+    text-align: center;
+}
+
+.color {
+    color: var(--darkgrey);
+    font-size: 2.4rem;
+
+}
+
+.para {
+    margin: 1rem;
+    font-size: 16px;
+    line-height: 1.5rem;
+    
+}
+
+/* aboutus section ends */
+
+
+/* signatute section starts */
+
+.signature_section {
+    width: 80%;
+    margin: 4rem auto;
+}
+
+.tropical {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2.5rem 0;
+    flex-direction: column-reverse;
+    
+}
+
+.tropical_reverse {
+    flex-direction: column-reverse;
+}
+
+.first_sec {
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.seondc_sec {
+    width: 90%;
+    position: relative;
+    margin: 1rem auto;
+}
+
+.card_img {
+    width: 80%;
+}
+
+.patternimg {
+    position: absolute;
+    right: 5%;
+    bottom: -9%;
+}
+
+.opposite {
+    left: 5%;
+    bottom: -8%;
+    position: absolute;
+}
+
+/* signatute section ends */
+
+.contact_section {
+    width: 80%;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.form_section {
+    width: 100%;
+    margin: 4rem auto;
+    display: block;
+}
+
+.location {
+    width: 100%;
+}
+
+
+.form_css{
+  
+    border-left: none;
+    padding-left:  0rem;
+    padding: 1rem;
+}
+.btn_div{
+    display: flex;
+    justify-content: center;
+}
+.submitbtn{
+    padding: .1rem 4rem;
+}
+
+.footer_logo{
+    width: 30%;
+}
+ .footer_menu{
+    width: 50%;
+ }
+ 
+ .row_two{
+    padding: 1.2rem; 
+ }
+ 
+ .footer_txt{
+    font-size: .9rem;
+    letter-spacing: 0px;
+ }
+/* footer section ends */
+
+}
+
+/* ***************************************************************************************************** */
+
+@media screen and (max-width: 824px){
+    .hero_section{
+        width: 100%;
+        height: 930px;
+  
+       
+    }
+    .Navbar_Css {
+       width: 100%;
+    }
+
+    .logo_brand{
+        margin: 3rem 0;
+    }
+
+.Welcome_Section {
+    width: 85%;
+    display: block;
+    height: auto;
+    margin:2rem auto ;
+}
+.empty {
+    display: none;
+}
+
+.Welcome {
+    width: 100%;
+    margin: auto;
+    padding: 1.5rem ;
+}
+.Display{
+    display: none;
+}
+
+.Cocktails{
+    font-size: 4rem;
+}
+.setting_img {
+    position: absolute;
+    right: -8%;
+    top: -30%;
+}
+
+/* aboutus section starts */
+
+.aboutus_section {
+    width: 85%;
+    margin: 4rem auto;
+    text-align: center;
+}
+
+.color {
+  
+    font-size: 2.3rem;
+}
+
+.para {
+    margin:2rem 1rem;
+    font-size: 16px;
+}
+
+/* aboutus section ends */
+
+
+/* signatute section starts */
+
+.signature_section {
+    width: 80%;
+    margin: 3.5rem auto;
+}
+
+.tropical {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2.5rem 0;
+    flex-direction: column-reverse;
+    
+}
+
+.tropical_reverse {
+    flex-direction: column-reverse;
+}
+
+.first_sec {
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.seondc_sec {
+    width: 90%;
+    position: relative;
+    margin: 1rem auto;
+}
+
+.card_img {
+    width: 85%;
+}
+
+.patternimg {
+    position: absolute;
+    right: 2%;
+    bottom: -8%;
+}
+
+.opposite {
+    left: 2%;
+    bottom: -8%;
+    position: absolute;
+}
+
+/* signatute section ends */
+
+.footer_logo{
+    width: 25%;
+}
+ .footer_menu{
+    width: 60%;
+ }
+ 
+ .row_two{
+    padding: 1.2rem; 
+ }
+ 
+ .footer_txt{
+    font-size: .9rem;
+    letter-spacing: 0px;
+ }
+
+}
+
+/* ******************************************************************************************************************************* */
+    
+
+@media screen and (max-width: 724px){
+    .setting_img{
+        display: none;
+    }
+
+    .hero_section{
+        width: 100%;
+    }
+.Welcome_Section {
+    width: 90%;
+    display: block;
+    height: auto;
+    margin:2rem auto ;
+}
+
+.Welcome {
+    width: 100%;
+    padding: 1rem ;
+}
+.Display{
+    display: none;
+}
+
+.Land{
+    font-size: 3rem;
+}
+
+.Cocktails{
+    font-size: 3.5rem;
+}
+.viewbtn{
+    width: 180px;
+    height: 60px;
+}
+/* aboutus section starts */
+
+.aboutus_section {
+    width: 85%;
+    margin: 4rem auto;
+    text-align: center;
+}
+
+.color {
+  
+    font-size: 2.3rem;
+}
+
+.para {
+    margin:2rem 1rem;
+    font-size: 16px;
+}
+
+/* aboutus section ends */
+
+
+/* signatute section starts */
+
+.signature_section {
+    width: 85%;
+    margin: 3.5rem auto;
+}
+
+.tropical {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2.5rem 0;
+    flex-direction: column-reverse;
+    
+}
+
+.tropical_reverse {
+    flex-direction: column-reverse;
+}
+
+.first_sec {
+    width: 100%;
+    margin: 1rem auto;
+    
+}
+
+.seondc_sec {
+    width: 100%;
+    position: relative;
+    margin: 1rem auto;
+}
+
+.card_img {
+    width: 100%;
+}
+
+.patternimg {
+    display: none;
+}
+
+.opposite {
+    display: none;
+}
+
+/* signatute section ends */
+
+.contact_section {
+    width: 90%;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.form_section {
+    width: 100%;
+    margin: 4rem auto;
+    display: block;
+}
+
+.location {
+    width: 100%;
+    padding: 1rem .5rem;
+}
+
+.form_css{
+    border-left: none;
+    padding-left:  0rem;
+    padding: 0;
+}
+
+.btn_div{
+    display: flex;
+    justify-content: center;
+}
+
+.submitbtn{
+    padding: 1rem 4rem;
+  
+}
+.icon{
+    width: 50px;
+    height: 50px;
+   
+    margin-right: 1.5rem;
+}
+.fa-solid{
+    font-size: 20px;
+
+}
+
+.note{
+    height: 50px;
+}
+
+.note_styles{
+    font-size: 13px;
+    letter-spacing: 0px;
+}
+
+.social_media{
+    width: 100%;
+    /* background-color: #C69946; */
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    display: none;
+}
+
+.row_one{
+    display: block;
+    padding: 1rem 3rem;
+    text-align: center;
+}
+.footer_logo{
+    width: 100%;
+    margin: 3rem 0;
+}
+ .footer_menu{
+    width: 100%;
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-between;
+ }
+ 
+
+ .row_two{
+    display:block;
+    text-align: center;
+ }
+ .footer_txt{
+    margin: 1.5rem 0rem;
+    width: 100%;
+ }
+/* 
+
+}
